@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+/* Variables */
+
+/* color*/
+
+:root {
+   --green-color: #7ACC2D;
+   --white-color: white;
+   --black-color: #313337;   
+
+/*Tipografia */
+   --normal: 12px;
+/* Espaciado */
+   --space: 10px;
+/* box-shadow*/   
+   --box: 0 0 2px #c1bcbc;
+}   
+
+
+html,body{
+   padding: 0px;
+   margin: 0px;
+   font-size: var(--normal);
+   font-family: 'Open Sans', sans-serif;
+}
+
+/* Estilo de la barra de navegacion */
+nav {
+  display: flex;
+  background-color: var(--green-color);
+  padding: var(--space);
+  color: var(--white-color);
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+
+}
+
+nav li{
+  padding-left: 20px;
+  list-style: none;
+}
+
+nav li a{
+  color: black;
+  text-decoration: none;
+}
+
+nav li a:hover{
+  color: var(--white-color);
+}
+
+h3 {
+text-decoration: underline;
+}
+
+label{
+  font-size: 10px;
+}
+
+/* Estio para el main section */
+
+.main_section{
+   padding: 10%;
+   text-align: center;
+   height: 100px;
+}
+
+.products{
+  background-image: url("../images/curve.png");
+  height: 50px;
+  background-size: cover;
+  background-position: center top;
+  padding: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.product{
+  padding: var(--space);
+  margin-top: -260px;
+}
+
+.product .content{
+   background-color: var(--white-color);
+   padding: 15px;
+   box-shadow: var(--box);
+   border-radius: 10px;
+}
+
+.image_content{
+  text-align: center;
+}
+
+.main_button {
+  background-color:	var(--green-color);
+  width: 100%;
+  padding: var(--space);
+  font-size: 17px;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.main_button:hover{
+	background-color: #5e9e22; 
+}
+
+.home {
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 0 2px gray;
+}
+
+.home_section {
+	padding: 20px;
+	margin: 2px;	
+}
+
+.home_content{
+	text-align: center;
+}
+
+.home_section .home_content{
+	padding: 20px;
+}
+
+.home-image {
+  text-align: center;
+}
+
+
+
+.mentions{
+	padding: 20px;
+	display: flex;
+  justify-content: center;	
+  align-items: center;
+  /*box-shadow: 0 0 5px gray;*/
+}
+
+.mentions_section {
+	padding: 0;
+	margin: 20px;	
+}
+
+.mentions_content{
+	text-align: center;
+	box-shadow: 0 0 10px gray;
+}
+
+.mentions_section .mentions_content{
+	padding: 10px;
+}
+
+.mentions-image-1 {
+  background-image: url("../images/santiago.png");
+  height: 140px;
+  width: 100%;
+  background-size: cover; 
+  background-repeat: none;  
+  text-align: center;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+
+
+.mentions-image-2 {
+  background-image: url("../images/karolina.png");
+  height: 140px;
+  width: 100%;
+  background-size: cover; 
+  background-repeat: none;  
+  text-align: center;
+  border-radius: 5px;
+}
+
+.mentions-image-3{
+  background-image: url("../images/mariana.png");
+  height: 140px;
+  width: 100%;
+  background-size: cover; 
+  background-repeat: none;  
+  text-align: center;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.mentions-image-4{
+  background-image: url("../images/sandra.png");
+  height: 140px;
+  width: 100%;
+  background-size: cover; 
+  background-repeat: none;  
+  text-align: center;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.mentions-image-1  img {
+  object-fit: cover;  
+}
+
+.mentions-image-2  img {
+  object-fit: cover;
+}
+
+.mentions-image-3  img {
+  object-fit: cover;
+}
+
+.mentions-image-4  img {
+  object-fit: cover;
+}
+
+h1 {
+	text-align: center;
+}
+  
+.footer {
+  padding: 10px;
+  margin: 0;
+  background-color: #313337;
+  display: flex;
+  justify-content: space-between;
+}
+
+.terms-section{
+   color: white;
+}
+
+.contact-section{
+  color: white;
+}
+
+.contact-section a{
+  color: #7ACC2D;
+}
+
+.contact-section a:hover{
+  color: gray;
+}
+
+.modulo_pagos{
+  /*border: 1px solid black;*/
+  padding: 0px 20px 1px;
+  box-shadow:  0 0 2px #c1bcbc
+}
+
+.modulo_pagos_images{
+  text-align: center;
+  margin: auto;
+}
+
+.form_pagos{
+  padding: 30px;
+  box-shadow:  0 0 2px #c1bcbc;
+  width: 310px;
+}
+
+.label_nombre{
+  padding: 5px;
+  max-width: 100%
+}
+
+.input_text_nombre{
+  margin: 5px;
+  border: 1px solid #c1bcbc;
+  width: 300px;
+  height: 35px;
+  border-radius: 5px;
+}
+
+.label_email{
+  padding: 5px;
+  max-width: 100%
+}
+
+.input_text_email{
+  margin: 5px;
+  border: 1px solid #c1bcbc;
+  width: 300px;
+  height: 35px;
+  border-radius: 5px;
+}
+
+.label_telefono{
+  padding: 5px;
+  max-width: 100%
+}
+
+.input_text_telefono{
+  margin: 5px;
+  border: 1px solid #c1bcbc;
+  width: 300px;
+  height: 35px;
+  border-radius: 5px;
+}
+
+.input_submit{
+    background-color: var(--green-color);
+  width: 100%;
+  margin: 5px;
+  padding: var(--space);
+  font-size: 17px;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  border-radius: 2px;
+}
